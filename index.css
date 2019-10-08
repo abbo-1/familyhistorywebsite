@@ -1,5 +1,6 @@
-body {
-    background-color: #3269a8
+.backsplash {
+    background-color: #3269a8;
+    border: 1px 3269a8;
 }
 
 * {
@@ -13,14 +14,16 @@ body {
     background-attachment: fixed;
     text-align: justify;
     margin: auto;
+    margin-top: 15px;
     width: 60%;
     border: 4px solid black;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 
+    box-shadow: 0 4px 8px 0 black
 }
 .search {
     text-align:left;
+    position: sticky;
 }
 
 .search-bar {
@@ -50,11 +53,29 @@ input[type=text]:focus {
     max-height: 100%;
     margin: auto;
     display: block;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 .copyright {
     position: bottom;
     display: block;
     text-align: center;
-    font-weight: 100px; 
+    font-weight: bold;
+    line-height: 95%; 
+    opacity: .7;
+}
+
+.amazon {
+    padding-top: 40px;
+    padding-bottom:40px;
+    border: 3px solid blue
+}
+
+.amazon img{
+    max-width: 40%;
+    max-height: 40%;
+    display: block;
+    text-align: center;
+    border: 2px solid black
 }
