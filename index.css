@@ -1,6 +1,5 @@
 .backsplash {
     background-color: #3269a8;
-    border: 1px 3269a8;
 }
 
 * {
@@ -11,7 +10,7 @@
 .content_background {
     background-color: white;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     text-align: justify;
     margin: auto;
     margin-top: 15px;
