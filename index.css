@@ -71,7 +71,7 @@ input[type=text]:focus {
     border: 3px solid blue
 }
 
-.amazon img{
+.amazon img {
     max-width: 40%;
     max-height: 40%;
     display: block;
@@ -79,4 +79,10 @@ input[type=text]:focus {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid black
+}
+
+.mail {
+    float: right;
+    width: 100%;
+    height: auto;
 }
